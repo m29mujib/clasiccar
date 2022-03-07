@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Poppins:wght@200;300&family=Redressed&family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><h1 class="logo">W<span>M</span></h1></a
+        >
+
+        <div class="nav-link" id="navlink">
+          <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#index.html">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">COURSE</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Selamat datang <br />di garasi tua</h1>
+        <p>Menyediakn berbagai macam mobil clasik tua<br />dengan barang original dan rapi</p>
+        <a href="#" class="hero-btn">Cari Lebih lanjut</a>
+      </div>
+    </section>
+
+    <!-- Course -->
+    <section class="Course">
+      <h1>Selamat Datang</h1>
+      <p>Jika barang tidak original,kami siap melakukan apapun demi customer kami atau hub : 0987223156</p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>T 1645-1804</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut necessitatibus vero laborum nostrum optio! Porro culpa inventore</p>
+        </div>
+        <div class="course-col">
+          <h3>T 1850-1900</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut necessitatibus vero laborum nostrum optio! Porro culpa inventore, quisquam.</p>
+        </div>
+        <div class="course-col">
+          <h3>T 1900-1998</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut necessitatibus vero laborum nostrum optio! Porro culpa inventore, quisquam, optio fugit, doloremque harum.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- toko -->
+    <section class="toko">
+      <h1>Casual Model</h1>
+      <p>Tampil beda dari yang lain!</p>
+
+      <div class="row">
+        <div class="toko-col">
+          <img src="images/car1.jpg" />
+          <div class="layer">
+            <h3>Casual Sport</h3>
+          </div>
+        </div>
+        <div class="toko-col">
+          <img src="images/car2.jpg" />
+          <div class="layer">
+            <h3>Clasic VIP</h3>
+          </div>
+        </div>
+        <div class="toko-col">
+          <img src="images/car4.jpg" />
+          <div class="layer">
+            <h3>Modern Casual</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- fasilitas -->
+    <section class="fasilitas">
+      <h1>Fasilitas</h1>
+      <p>Aman Nyaman dan yang pastinya enak dipandang</p>
+
+      <div class="row">
+        <div class="fasilitas-col">
+          <img src="images/hero.jpg" />
+          <h3>VIP Model</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti facere similique tempora aliquid quidem!</p>
+        </div>
+        <div class="fasilitas-col">
+          <img src="images/car2.jpg" />
+          <h3>MVP Class</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti facere similique tempora aliquid quidem!</p>
+        </div>
+        <div class="fasilitas-col">
+          <img src="images/car1.jpg" />
+          <h3>EPIC Glory</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et deleniti facere similique tempora aliquid quidem!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimoni">
+      <h1>Testimoni</h1>
+      <p>Yang Bertanggung Jawab | CEO : Team : Manager</p>
+
+      <div class="row">
+        <div class="testimoni-col">
+          <img src="images/testimoni1.jpeg" />
+          <div class="deskripsi">
+            <p>Mobil lama berkualitas, ga salah pilih</p>
+            <h3>Muhamad A Mujib</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half"></i>
+          </div>
+        </div>
+        <div class="testimoni-col">
+          <img src="images/m1.jpg" />
+          <div class="deskripsi">
+            <p>Kereeennnnn... Buat kalian pecinta mobil tua clasic wajib mampir...</p>
+            <h3>Muhamad Danial EL</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- call to action -->
+    <section class="Contact">
+      <h1>Segera hubungi seller</h1>
+      <a href="" class="hero-btn">Hubungi</a>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <h4>Tentang Kami</h4>
+      <p>Terimakasih sudah mengunjungi website kami <br />Semoga anda suka dengan apa yang kami tawarkan</p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+      <p>Made with <i class="fa-brands fa-sticker-mule"></i> Muhamad A Mujib</p>
+    </section>
+
+    <!-- -------javascript for toggle menu--------- -->
+    <script>
+      var navlink = document.getElementById("navlink");
+
+      function showMenu() {
+        navlink.style.right = "0";
+      }
+      function hideMenu() {
+        navlink.style.right = " -200px";
+      }
+    </script>
+  </body>
+</html>
